@@ -26,3 +26,10 @@ Example:
 ```bash
 python guess_and_rename_png_files.py ./images
 ```
+
+### 3. **Running the Python GUI App**
+To run the GUI app for selecting the directory and processing PNG files:
+
+```bash
+python gui_app.py
+```

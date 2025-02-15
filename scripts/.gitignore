@@ -1,0 +1,11 @@
+# Ignore JSON files
+*.json
+
+# Ignore Swift related files
+*.swift
+*.swiftmodule
+*.swiftdoc
+*.swiftsourceinfo
+*.xcodeproj
+*.xcworkspace
+.DS_Store
