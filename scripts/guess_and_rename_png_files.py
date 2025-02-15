@@ -39,10 +39,10 @@ def main():
         new_path = os.path.join(renamed_dir, new_name)
         
         if args.dry_run:
-            print(f"[DRY RUN] Would rename: {filename} -> {new_name}")
+            print(f"[DRY RUN] Would rename: {filename} -> {new_name}", flush=True)
         else:
             os.rename(file_path, new_path)
-            print(f"Renamed: {filename} -> {new_name}")
+            print(f"Renamed: {filename} -> {new_name}", flush=True)
 
 if __name__ == "__main__":
     main()
